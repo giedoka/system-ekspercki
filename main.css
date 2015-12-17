@@ -1,0 +1,138 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Biryani', sans-serif;
+}
+
+.page-header {
+	background: url(img/main-background.jpg);
+	background-size: cover;
+	background-position: 50%;
+	text-align: center;
+	height: 500px;
+	margin-top: -35px;
+}
+
+.page-header .menu-btn {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-size: 2rem;
+	background: none;
+	color: #ffffff;
+	border: none;
+}
+
+.page-header .page-nav .close-menu-btn {
+	position: relative;
+	left: 10px;
+	top: 10px;
+	fill: #ffffff;
+	border: none;
+	width: 20px;
+	height: 20px;
+
+}
+
+.page-header .page-nav {
+	background: url(img/menu.jpg);
+	background-size: cover;
+	position: fixed;
+	text-align: left;
+	z-index: 1000;
+	color: #c0c0c0;
+	height: 100%;
+	width: 155px;
+	left: -155px;
+}
+
+.page-header .page-nav ul {
+	list-style-type: none;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.page-header .page-nav ul li {
+	padding: 10px 5px 5px 5px;
+	font-size: 1.3rem;
+}
+
+.page-header h2 {
+	color: #ffffff;
+	font-size: 4rem;
+	position: relative;
+	top: 150px;
+	line-height: 50px;
+}
+
+.page-header p {
+	color: #ffffff;
+	font-size: 2rem;
+	position: relative;
+	top: 120px;
+}
+
+article .three-imgs {
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+
+article .three-imgs img {
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 40px;
+}
+
+article .description {
+	position: relative;
+	top: 20px;
+	font-size: 1.6rem;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+article .expert {
+	position: relative;
+	top: 20px;
+	background: #c0c0c0;
+}
+
+article .expert .query {
+	text-align: center;
+}
+
+article .expert .query h2:first-child {
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+article .expert .query input[type="radio"] {
+	margin-left: 10px;
+}
+
+article .expert .query input[type="radio"]+label{
+	font-size: 1.4rem;
+}
+
+article .expert .query ul {
+	padding: 0;
+}
+
+article .expert .query ul li {
+	list-style-type: none;
+	border-bottom: 3px solid #ffffff;
+}
+
+article .expert .query ul li:last-child {
+	border-bottom: none;
+}
