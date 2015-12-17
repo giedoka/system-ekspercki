@@ -7,6 +7,8 @@ body {
 	padding: 0;
 
 	font-family: 'Biryani', sans-serif;
+	position: relative;
+	left: 0;
 }
 
 .page-header {
@@ -19,7 +21,7 @@ body {
 }
 
 .page-header .menu-btn {
-	position: absolute;
+	position: fixed;
 	left: 10px;
 	top: 10px;
 	font-size: 2rem;
@@ -35,8 +37,8 @@ body {
 	top: 10px;
 	fill: #ffffff;
 	border: none;
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 
 }
 
@@ -46,7 +48,6 @@ body {
 	position: fixed;
 	text-align: left;
 	z-index: 1000;
-	color: #c0c0c0;
 	height: 100%;
 	width: 155px;
 	left: -155px;
@@ -65,19 +66,25 @@ body {
 	font-size: 1.3rem;
 }
 
+.page-header .page-nav ul li a {
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
 .page-header h2 {
 	color: #ffffff;
 	font-size: 4rem;
 	position: relative;
-	top: 150px;
+	top: 160px;
 	line-height: 50px;
+	font-family: 'Galindo', sans-serif;
 }
 
 .page-header p {
 	color: #ffffff;
 	font-size: 2rem;
 	position: relative;
-	top: 120px;
+	top: 130px;
 }
 
 article .three-imgs {
