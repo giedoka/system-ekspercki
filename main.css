@@ -58,12 +58,19 @@ body {
 	padding: 0;
 	position: relative;
 	top: 10px;
-	left: 10px;
+	left: 0px;
 }
 
 .page-header .page-nav ul li {
-	padding: 10px 5px 5px 5px;
-	font-size: 1.6rem;
+	padding: 10px 0px 5px 5px;
+	font-size: 1.7rem;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+}
+
+.page-header .page-nav ul li:first-child,
+.page-header .page-nav ul li:nth-child(2) {
+	border-bottom: none;
 }
 
 .page-header .page-nav ul li a {
