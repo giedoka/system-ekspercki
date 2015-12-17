@@ -151,3 +151,12 @@ article .expert .query ul li {
 article .expert .query ul li:last-child {
 	border-bottom: none;
 }
+
+.page-up-btn {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	opacity: 0.4;
+}
