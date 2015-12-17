@@ -5,7 +5,7 @@ var main = function() {
 		}, 200);
 
 		$('body').animate({
-			right: "-155px"
+			left: "155px"
 		}, 200);
 	});
 
@@ -15,7 +15,7 @@ var main = function() {
 		}, 200);
 
 		$('body').animate({
-			right: "0"
+			left: "0"
 		}, 200);
 	})
 }
