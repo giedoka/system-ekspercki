@@ -17,7 +17,18 @@ var main = function() {
 		$('body').animate({
 			left: "0"
 		}, 200);
-	})
+	});
+
+	/*&('.submit-btn').click(function() {
+		var result = $('input[type="radio"]:checked');
+
+		if(result.length > 0){
+			$('.result').html(result.val() + " is checked");
+		}
+		else {
+			$('.result').html("No radio button checked");
+		}
+	});*/
 }
 
 $(document).ready(main);
