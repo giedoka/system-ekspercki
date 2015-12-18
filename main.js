@@ -1,22 +1,24 @@
 var main = function() {
 	$('.menu-btn').click(function() {
 		$('.page-nav').animate({
-			left: "0px"
-		}, 200);
+			left: "0px",
+			opacity: "1"
+		}, 400);
 
-		$('body').animate({
+		/*$('body').animate({
 			left: "155px"
-		}, 200);
+		}, 200);*/
 	});
 
 	$('.close-menu-btn').click(function() {
 		$('.page-nav').animate({
-			left: "-155px"
-		}, 200);
+			left: "-155px",
+			opacity: "0"
+		}, 400);
 
-		$('body').animate({
+		/*$('body').animate({
 			left: "0"
-		}, 200);
+		}, 200);*/
 	});
 
 	/*&('.submit-btn').click(function() {

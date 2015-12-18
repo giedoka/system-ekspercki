@@ -51,6 +51,7 @@ body {
 	height: 100%;
 	width: 155px;
 	left: -155px;
+	opacity: 0;
 }
 
 .page-header .page-nav ul {
