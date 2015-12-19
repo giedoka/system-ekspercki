@@ -53,7 +53,10 @@ body {
 	width: 155px;
 	left: -155px;
 	opacity: 0;
+
 }
+
+
 
 .page-header .page-nav ul {
 	list-style-type: none;
@@ -81,7 +84,7 @@ body {
 
 .page-header .page-nav ul li a {
 	text-decoration: none;
-	color: #c0c0c0;
+	color: #ffffff;
 }
 
 .page-header h2 {
@@ -154,6 +157,18 @@ article .expert .query ul {
 article .expert .query ul li {
 	list-style-type: none;
 	border-bottom: 3px solid #ffffff;
+}
+
+article .expert .query ul li:nth-child(2) {
+	display: none;
+}
+
+article .expert .query ul li:nth-child(3) {
+	display: none;
+}
+
+article .expert .query ul li:nth-child(4) {
+	display: none;
 }
 
 .submit-btn {
