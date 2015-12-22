@@ -171,6 +171,10 @@ article .expert .query ul li:nth-child(4) {
 	display: none;
 }
 
+.result {
+	font-size: 1.4rem;
+}
+
 .submit-btn {
 	position: relative;
 	font-size: 1.8rem;

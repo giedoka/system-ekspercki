@@ -21,9 +21,9 @@ var main = function() {
 		}, 200);*/
 	});
 
-	$('.submit-btn').click(function() {
+	/*$('.submit-btn').click(function() {
 		$('.submit-btn').css("background", "#ff0000");
-	});
+	});*/
 
 	$('input[type="radio"]').click(function() {
        if($(this).attr('id') == 'glodny-tak' || $(this).attr('id') == 'glodny-nie') {
@@ -50,6 +50,11 @@ var main = function() {
 }
 
 $(document).ready(main);
+
+function BtnClick() {
+	var x = document.getElementsByClassName("result");
+	x[0].innerHTML = "Proponuję, abyś zjadł: ";
+}
 /////////////////
 /*
 var tab1 = ["wątróbka z pieczarkami i cebula", "leczo", "panierowana pierś z kurczaka", "kurczak w sosie curry"];
