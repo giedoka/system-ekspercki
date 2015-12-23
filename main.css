@@ -22,6 +22,7 @@ body {
 
 .page-header .menu-btn {
 	position: fixed;
+	z-index: 999;
 	left: 10px;
 	top: 10px;
 	font-size: 2rem;
@@ -127,8 +128,10 @@ article .description {
 article .expert {
 	position: flex;
 	margin-top: 20px;
-	background: #c0c0c0;
+	background: #ff704d;
 	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #000000;
 	
 }
 
@@ -186,6 +189,15 @@ article .expert .query ul li:nth-child(4) {
 	color: #ffffff;
 	border-radius: 20px;
 	bottom: 5px;
+}
+
+.mail-contact {
+	position: flex;
+	text-align: center;
+}
+
+.mail-contact .mail-information {
+	font-size: 1.6rem;
 }
 
 footer .copyright {

@@ -21,6 +21,8 @@ var main = function() {
 		}, 200);*/
 	});
 
+	
+
 	/*$('.submit-btn').click(function() {
 		$('.submit-btn').css("background", "#ff0000");
 	});*/
@@ -48,11 +50,17 @@ var main = function() {
        } //NIE DZIALA!!!!!
    });
 	$(document).scroll(function() {
-    if($( document ).scrollTop() >= $( ".three-imgs" ).offset().top - 40) {
-         $( ".menu-btn" ).css('color', '#000000');
-    } 	
+    	if($( document ).scrollTop() >= $( ".three-imgs" ).offset().top - 40) {
+         	$( ".menu-btn" ).css('color', '#000000');
+    	} 	
     	else if($( document ).scrollTop() <= $( ".three-imgs" ).offset().top) {
-        	$( ".menu-btn" ).css('color', '#ffffff');
+    	    $( ".menu-btn" ).css('color', '#ffffff');
+    	}
+    	if($( document ).scrollTop() >= $( ".expert" ).offset().top - 25) {
+    	    $( ".menu-btn" ).css('color', '#ffffff');
+    	}
+    	else if($( document ).scrollTop() <= $( ".expert" ).offset().top) {
+    	    $( ".menu-btn" ).css('color', '#000000');
     	}
 	});
 }
@@ -162,7 +170,7 @@ function BtnClick() {
 	}
 
 	else {
-		x[0].innerHTML = "Sprawdź czy poprawnie wypełniłeś ankietę";
+		x[0].innerHTML = alert("Sprawdź czy poprawnie wypełniłeś ankietę");
 	}
 }
 
