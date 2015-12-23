@@ -47,6 +47,14 @@ var main = function() {
             $('.query ul li:nth-child(4)').hide();
        } //NIE DZIALA!!!!!
    });
+	$(document).scroll(function() {
+    if($( document ).scrollTop() >= $( ".three-imgs" ).offset().top - 40) {
+         $( ".menu-btn" ).css('color', '#000000');
+    } 	
+    	else if($( document ).scrollTop() <= $( ".three-imgs" ).offset().top) {
+        	$( ".menu-btn" ).css('color', '#ffffff');
+    	}
+	});
 }
 
 function BtnClick() {
@@ -75,9 +83,9 @@ function BtnClick() {
 	var chleb = "chleb razowy z szynką i pomidorem";
 	var tab11 = ["sałatkę grecka", "krem z dyni", "zupę pomidorowa", "marchewkę"];
 
-var randomMeal = Math.floor(Math.random() * 4);
-var randomMeal2 = Math.floor(Math.random() * 3);
-var meal;
+	var randomMeal = Math.floor(Math.random() * 4);
+	var randomMeal2 = Math.floor(Math.random() * 3);
+	var meal;
 	if(glodnyTak.checked && mieso.checked){
 		slodkieNie.checked = true;
 		if(odchudzanieNie.checked){
@@ -154,26 +162,8 @@ var meal;
 	}
 
 	else {
-		x[0].innerHTML = "Sprawdź czy poprawnie uzupełniłeś dane";
+		x[0].innerHTML = "Sprawdź czy poprawnie wypełniłeś ankietę";
 	}
 }
 
 $(document).ready(main);
-
-var tab1 = ["wątróbka z pieczarkami i cebula", "leczo", "panierowana pierś z kurczaka", "kurczak w sosie curry"];
-var tab2 = ["sałatka grecka", "placki ziemniaczane", "warzywne racuchy"];
-var tab3 = ["szarlotka", "racuchy z jabłkami", "makaron z truskawkami", "kluski na parze"];
-var syr = "wyprażany syr";
-var tab4 = ["pierś z kurczaka gotowana na parze", "szaszłyki drobiowe", "grillowany łosoś"];
-var tab5 = ["sałatka grecka", "krem z dyni", "naleśniki z warzywami", "warzywna tortilla pełnoziarnista"];
-var tab6 = ["bananowe ciastka bezglutenowe", "niskokaloryczna beza", "błonnikowy piernik", "wzmacniająca baclava"];
-var tab7 = ["grzanki z sosem pomidorowo-mięsnym", "ostre papryczki faszerowane mięsem mielonym", "kanapka z pasztetem"];
-var tab8 = ["krążki cebulowe", "papryczki jalapenos nadziewane serem feta", "roladki z cukinii", "cała marchewka"];
-var tab9 = ["batonik", "czekolada", "drożdżówka", "śliwki w czekoladzie", "rodzynki"];
-var tab10 = ["pieczywo chrupkie", "musli z jogurtem naturalnym", "owsianka na wodzie"];
-var chleb = "chleb razowy z szynką i pomidorem";
-var tab11 = ["sałatka grecka", "krem z dyni", "zupa pomidorowa", "marchewka"];
-
-var randomMeal = Math.floor(Math.random() * 4);
-var meal = tab1[randomMeal]
-
