@@ -56,12 +56,12 @@ var main = function() {
     	else if($( document ).scrollTop() <= $( ".three-imgs" ).offset().top) {
     	    $( ".menu-btn" ).css('color', '#ffffff');
     	}
-    	if($( document ).scrollTop() >= $( ".expert" ).offset().top - 25) {
+    	/*if($( document ).scrollTop() >= $( ".expert" ).offset().top - 25) {
     	    $( ".menu-btn" ).css('color', '#ffffff');
     	}
     	else if($( document ).scrollTop() <= $( ".expert" ).offset().top) {
     	    $( ".menu-btn" ).css('color', '#000000');
-    	}
+    	}*/
 	});
 }
 
@@ -170,7 +170,7 @@ function BtnClick() {
 	}
 
 	else {
-		x[0].innerHTML = alert("Sprawdź czy poprawnie wypełniłeś ankietę");
+		x[0].innerHTML = "Sprawdź czy poprawnie wypełniłeś ankietę";
 	}
 }
 
