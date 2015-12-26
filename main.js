@@ -61,7 +61,7 @@ var main = function() {
             $('.query ul li:nth-child(4)').hide({
             	opacity: "0"
             });
-       } //NIE DZIALA!!!!!
+       }
    });
 	$(document).scroll(function() {
     	if($( document ).scrollTop() >= $( ".three-imgs" ).offset().top - 40) {
