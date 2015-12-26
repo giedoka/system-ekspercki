@@ -29,24 +29,38 @@ var main = function() {
 
 	$('input[type="radio"]').click(function() {
        if($(this).attr('id') == 'glodny-tak' || $(this).attr('id') == 'glodny-nie') {
-            $('.query ul li:nth-child(2)').show();         
+            $('.query ul li:nth-child(2)').show({
+            	opacity: "1"
+            });         
        }
 
        if($(this).attr('id') == 'mieso' || $(this).attr('id') == 'warzywa') {
-            $('.query ul li:nth-child(3)').hide(); 
-            $('.query ul li:nth-child(4)').show();         
+            $('.query ul li:nth-child(3)').hide({
+            	opacity: "0"
+            }); 
+            $('.query ul li:nth-child(4)').show({
+            	opacity: "1"
+            });         
        }
 
        if($(this).attr('id') == 'ani') {
-            $('.query ul li:nth-child(4)').hide();   
-            $('.query ul li:nth-child(3)').show();
+            $('.query ul li:nth-child(4)').hide({
+            	opacity: "0"
+            });   
+            $('.query ul li:nth-child(3)').show({
+            	opacity: "1"
+            });
        }
        if($(this).attr('id') == 'slodkie-tak') {
-            $('.query ul li:nth-child(4)').show();
+            $('.query ul li:nth-child(4)').show({
+            	opacity: "1"
+            });
        }
 
-       if($(this).attr('id') == 'ani' && $(this).attr('id') == 'slodkie-nie') {
-            $('.query ul li:nth-child(4)').hide();
+       if($(this).attr('id') == 'slodkie-nie') {
+            $('.query ul li:nth-child(4)').hide({
+            	opacity: "0"
+            });
        } //NIE DZIALA!!!!!
    });
 	$(document).scroll(function() {

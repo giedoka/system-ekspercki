@@ -157,21 +157,25 @@ article .expert .query ul {
 	padding: 0;
 }
 
-article .expert .query ul li {
+article .expert .query ul .question {
 	list-style-type: none;
 	border-bottom: 3px solid #ffffff;
 }
 
-article .expert .query ul li:nth-child(2) {
+article .expert .query ul .question:nth-child(2) {
 	display: none;
 }
 
-article .expert .query ul li:nth-child(3) {
+article .expert .query ul .question:nth-child(3) {
 	display: none;
 }
 
-article .expert .query ul li:nth-child(4) {
+article .expert .query ul .question:nth-child(4) {
 	display: none;
+}
+
+article .expert .query ul. question.question-done {
+	display: block;
 }
 
 .result {
