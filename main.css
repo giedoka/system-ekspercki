@@ -12,7 +12,7 @@ body {
 }
 
 .page-header {
-	background: url(img/main-background.jpg);
+	background: url(img/main-background-small.jpg);
 	background-size: cover;
 	background-position: 50%;
 	text-align: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .page-header .page-nav {
-	background: url(img/wood.jpg);
+	background: url(img/wood-small.jpg);
 	background-size: cover;
 	border-right: 4px solid #49311c;
 	position: fixed;
@@ -175,7 +175,9 @@ article .expert .query ul li:nth-child(4) {
 }
 
 .result {
-	font-size: 1.4rem;
+	font-size: 2rem;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .submit-btn {
@@ -216,3 +218,41 @@ footer .copyright {
 	bottom: 10px;
 	opacity: 0.4;
 }
+
+/*@media (min-width: 600px) {
+	.description p {
+		margin-left: 52%;
+		
+	}
+
+	.three-imgs:first-child {
+		display: none;
+	}
+	.three-imgs { 
+		margin-left: 46%;
+	}
+	.three-imgs img {
+		display: block;
+	}
+	.expert {
+		margin-right: 60%;
+		border-radius: 30px;
+		position: relative;
+		left: 20px;
+	}
+	article .expert .query ul li:nth-child(2) {
+		display: block;
+	}
+
+	article .expert .query ul li:nth-child(3) {
+		display: block;
+	}
+
+	article .expert .query ul li:nth-child(4) {
+		display: block;
+	}
+	.expert .result {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}*/
