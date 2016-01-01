@@ -125,7 +125,7 @@ article .description {
 	margin-right: 25px;
 }
 
-article .expert {
+article #expert {
 	position: flex;
 	margin-top: 20px;
 	background: #ff704d;
@@ -135,46 +135,46 @@ article .expert {
 	
 }
 
-article .expert .query {
+article #expert .query {
 	width: 100%;
 }
 
-article .expert .query h2:first-child {
+article #expert .query h2:first-child {
 	padding-top: 10px;
 	padding-left: 10px;
 	margin: 0;
 }
 
-article .expert .query input[type="radio"] {
+article #expert .query input[type="radio"] {
 	margin-left: 10px;
 }
 
-article .expert .query input[type="radio"]+label{
+article #expert .query input[type="radio"]+label{
 	font-size: 1.4rem;
 }
 
-article .expert .query ul {
+article #expert .query ul {
 	padding: 0;
 }
 
-article .expert .query ul .question {
+article #expert .query ul .question {
 	list-style-type: none;
 	border-bottom: 3px solid #ffffff;
 }
 
-article .expert .query ul .question:nth-child(2) {
+article #expert .query ul .question:nth-child(2) {
 	display: none;
 }
 
-article .expert .query ul .question:nth-child(3) {
+article #expert .query ul .question:nth-child(3) {
 	display: none;
 }
 
-article .expert .query ul .question:nth-child(4) {
+article #expert .query ul .question:nth-child(4) {
 	display: none;
 }
 
-article .expert .query ul. question.question-done {
+article #expert .query ul. question.question-done {
 	display: block;
 }
 
@@ -223,40 +223,54 @@ footer .copyright {
 	opacity: 0.4;
 }
 
-/*@media (min-width: 600px) {
+@media (min-width: 666px) {
+	article {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 	.description p {
-		margin-left: 52%;
-		
+		width: 40%;
+		float: left;
+		margin-right: 60px;
 	}
 
 	.three-imgs:first-child {
 		display: none;
 	}
-	.three-imgs { 
-		margin-left: 46%;
-	}
-	.three-imgs img {
-		display: block;
-	}
-	.expert {
-		margin-right: 60%;
-		border-radius: 30px;
+	article .three-imgs { 
+		float: left;
+		top: 40px;
 		position: relative;
-		left: 20px;
+		left: 3%;
 	}
-	article .expert .query ul li:nth-child(2) {
+	article .three-imgs img {
+		display: block;
+	}
+	#expert {
+		width: 40%;
+		border-radius: 30px;
+		float: right;
+		margin-left: 60px;
+	}
+	article #expert .query ul li:nth-child(2) {
 		display: block;
 	}
 
-	article .expert .query ul li:nth-child(3) {
+	article #expert .query ul li:nth-child(3) {
 		display: block;
 	}
 
-	article .expert .query ul li:nth-child(4) {
+	article #expert .query ul li:nth-child(4) {
 		display: block;
 	}
-	.expert .result {
+	article #expert .result {
 		margin-left: 30px;
 		margin-right: 30px;
 	}
-}*/
+
+	
+
+	footer {
+		border-top: 5px dashed #ff704d;
+	}
+}

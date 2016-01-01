@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<a name="header">
+		<a id="header">
 		<header class="page-header">
 			<button class="menu-btn">MENU</button>
 			<div class="page-nav">
@@ -27,9 +27,9 @@
 </g>
 </svg>
 				<ul>
-					<li><a href="#description">JAK TO DZIAŁA</a></li>
-					<li><a href="#expert">SYSTEM EKSPERCKI</a></li>
-					<li><a href="#contact">KONTAKT</a></li>
+					<li><a id="link-description" href="#description">JAK TO DZIAŁA</a></li>
+					<li><a id="link-expert" href="#expert">SYSTEM EKSPERCKI</a></li>
+					<li><a id="link-contact" href="#contact">KONTAKT</a></li>
 				</ul>
 			</div>
 			<h2 class="page-title">Nie wiesz co</br>zjeść?</h2>
@@ -37,7 +37,7 @@
 		</header>
 		</a>
 		<article>
-			<a name="description">
+			<a id="description">
 			<div class="three-imgs">
 				<img src="img/first-img.svg">
 				<img src="img/second-img.svg">
@@ -54,7 +54,7 @@
 				<img src="img/second-img.svg">
 				<img src="img/third-img.svg">
 			</div>
-			<div class="expert">
+			<div id="expert">
 				<div class="query">
 					<ul>
 					<li class="question question-done">
@@ -68,25 +68,25 @@
 					<li class="question question-done">
 						<h2>Masz ochotę na mięsne czy raczej warzywne danie?</h2>
 						<form id="query-2">
-							<input type="radio" name="hungry" value="mieso" id="mieso"><label for="mieso">Mięso</label>
-							<input type="radio" name="hungry" value="warzywa" id="warzywa"><label for="warzywa">Warzywa</label>
-							<input type="radio" name="hungry" value="ani-to-ani-to" id="ani"><label for="ani-to-ani-to">Ani to ani to</label>
+							<input type="radio" name="meat" value="mieso" id="mieso"><label for="mieso">Mięso</label>
+							<input type="radio" name="meat" value="warzywa" id="warzywa"><label for="warzywa">Warzywa</label>
+							<input type="radio" name="meat" value="ani-to-ani-to" id="ani"><label for="ani-to-ani-to">Ani to ani to</label>
 						</form>
 					</li>
 
 					<li class="question question-done">
 						<h2>A może coś słodkiego?</h2>
 						<form id="query-3">
-							<input type="radio" name="hungry" value="tak" id="slodkie-tak"><label for="tak">Tak</label>
-							<input type="radio" name="hungry" value="nie" id="slodkie-nie"><label for="nie">Nie</label>
+							<input type="radio" name="sweet" value="tak" id="slodkie-tak"><label for="tak">Tak</label>
+							<input type="radio" name="sweet" value="nie" id="slodkie-nie"><label for="nie">Nie</label>
 						</form>
 					</li>
 
 					<li class="question question-done">
 						<h2>Odchudzasz się?</h2>
 						<form id="query-4">
-							<input type="radio" name="hungry" value="tak" id="odchudzanie-tak"><label for="tak">Tak</label>
-							<input type="radio" name="hungry" value="nie" id="odchudzanie-nie"><label for="nie">Nie</label>
+							<input type="radio" name="fit" value="tak" id="odchudzanie-tak"><label for="tak">Tak</label>
+							<input type="radio" name="fit" value="nie" id="odchudzanie-nie"><label for="nie">Nie</label>
 						</form>
 					</li>
 					</ul>
@@ -94,7 +94,8 @@
 				<button class="submit-btn" onclick="BtnClick()">WYŚLIJ</button>
 				<div class="result"></div>
 			</div>
-			<a name="contact">
+			<div style="clear: both;"></div>
+			<a id="contact">
 			<div class="mail-contact"></a>
 				<p class="mail-information">Jeśli masz jakieś uwagi, napisz do mnie!</p>
 				<a href="mailto:pasiak5@gmail.com"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -117,7 +118,7 @@
 		<footer>
 			<p class="copyright">&#169 copyright</br>Bartosz Gronkiewicz<p>
 		</footer>
-		<a href="#header"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		<a id="link-header" href="#header"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="970.504px" height="970.503px" viewBox="0 0 970.504 970.503" style="enable-background:new 0 0 970.504 970.503;"
 	 xml:space="preserve" class="page-up-btn">
 <g>

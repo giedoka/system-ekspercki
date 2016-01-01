@@ -77,6 +77,38 @@ var main = function() {
     	    $( ".menu-btn" ).css('color', '#000000');
     	}*/
 	});
+
+	$('#link-description').on('click', function(e){
+        e.preventDefault();
+        var target= $(this).get(0).id == 'description' ? $('#page-header') : $('#description');
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      });
+
+	$('#link-expert').on('click', function(e){
+        e.preventDefault();
+        var target= $(this).get(0).id == 'expert' ? $('#page-header') : $('#expert');
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      });
+
+	$('#link-contact').on('click', function(e){
+        e.preventDefault();
+        var target= $(this).get(0).id == 'contact' ? $('#page-header') : $('#contact');
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      });
+
+	$('#link-header').on('click', function(e){
+        e.preventDefault();
+        var target= $(this).get(0).id == 'header' ? $('footer') : $('#header');
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 300);
+      });
 }
 
 function BtnClick() {
