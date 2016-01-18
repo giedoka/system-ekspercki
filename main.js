@@ -4,10 +4,6 @@ var main = function() {
 			left: "0px",
 			opacity: "1"
 		}, 400);
-
-		/*$('body').animate({
-			left: "155px"
-		}, 200);*/
 	});
 
 	$('.close-menu-btn').click(function() {
@@ -15,17 +11,7 @@ var main = function() {
 			left: "-155px",
 			opacity: "0"
 		}, 400);
-
-		/*$('body').animate({
-			left: "0"
-		}, 200);*/
 	});
-
-	
-
-	/*$('.submit-btn').click(function() {
-		$('.submit-btn').css("background", "#ff0000");
-	});*/
 
 	$('input[type="radio"]').click(function() {
        if($(this).attr('id') == 'glodny-tak' || $(this).attr('id') == 'glodny-nie') {

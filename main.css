@@ -121,8 +121,8 @@ article .description {
 	top: 20px;
 	font-size: 1.6rem;
 	text-align: center;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 article #expert {
@@ -221,56 +221,4 @@ footer .copyright {
 	right: 10px;
 	bottom: 10px;
 	opacity: 0.4;
-}
-
-@media (min-width: 666px) {
-	article {
-		margin-left: 50px;
-		margin-right: 50px;
-	}
-	.description p {
-		width: 40%;
-		float: left;
-		margin-right: 60px;
-	}
-
-	.three-imgs:first-child {
-		display: none;
-	}
-	article .three-imgs { 
-		float: left;
-		top: 40px;
-		position: relative;
-		left: 3%;
-	}
-	article .three-imgs img {
-		display: block;
-	}
-	#expert {
-		width: 40%;
-		border-radius: 30px;
-		float: right;
-		margin-left: 60px;
-	}
-	article #expert .query ul li:nth-child(2) {
-		display: block;
-	}
-
-	article #expert .query ul li:nth-child(3) {
-		display: block;
-	}
-
-	article #expert .query ul li:nth-child(4) {
-		display: block;
-	}
-	article #expert .result {
-		margin-left: 30px;
-		margin-right: 30px;
-	}
-
-	
-
-	footer {
-		border-top: 5px dashed #ff704d;
-	}
 }
